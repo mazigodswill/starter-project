@@ -11,14 +11,14 @@ const scssTask = () => {
   return src('app/scss/style.scss', {sourcemaps: true})
   .pipe(sass().on('error', sass.logError))
   .pipe(postcss([cssnano()]))
-  .pipe(dest('dist', {sourcemaps: '.'}));
+  .pipe(dest('dist/css', {sourcemaps: '.'}));
 }
 
 // function for js task
 const jsTask = () => {
   return src('app/js/script.js', {sourcemaps: true})
   .pipe(terser())
-  .pipe(dest('dist', {sourcemaps: '.'}));
+  .pipe(dest('dist/js', {sourcemaps: '.'}));
 }
 
 // browser sync task
