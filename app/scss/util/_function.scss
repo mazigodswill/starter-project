@@ -1,0 +1,7 @@
+// https://css-tricks.com/snippets/sass/px-to-em-functions/#:~:text=So%2C%20by%20default%201em%20%3D%2016px%2C%20and%202em%20%3D%2032px.
+
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return calc($pixels / $context) * 1em;
+}
