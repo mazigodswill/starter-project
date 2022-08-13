@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.scss","style.css"],"names":[],"mappings":"AAEA,KACE,kBAHK,CAIL,aCDF","file":"style.css","sourcesContent":["$body: #630e0e;\r\n\r\nbody {\r\n  background: $body;\r\n  color: rgb(9, 255, 50);\r\n}","body {\n  background: #630e0e;\n  color: rgb(9, 255, 50);\n}"]}
