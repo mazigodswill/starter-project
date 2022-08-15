@@ -1,0 +1,47 @@
+/* ===============VARIABLES===============*/
+@use "../util/" as *;
+:root {
+  --header-height: em(56);
+
+  // ======colors ============
+
+  --first-color: hsl(152, 24%, 32%);
+  --first-color-alt: hsl(152, 24%, 28%);
+  --first-color-light: hsl(152, 24%, 66%);
+  --first-color-lighten: hsl(152, 24%, 92%);
+  --title-color: hsl(152, 4%, 15%);
+  --text-color: hsl(152, 4%, 35%);
+  --text-color-light: hsl(152, 4%, 55%);
+  --body-color: hsl(152, 0%, 100%);
+  --container-color: #fff;
+
+  // fonts and typography
+
+  --body-font: "Roboto", sans-serif;
+
+  --big-font-size: em(32);
+  --h1-font-size: em(24);
+  --h2-font-size: em(20);
+  --h3-font-size: em(16);
+  --normal-font-size: em(15.008);
+  --small-font-size: em(13.008);
+  --smaller-font-size: em(12);
+
+  // font weight
+  --font-md: 500;
+  --font-semi-md: 700;
+
+  // margins bottoms
+
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}

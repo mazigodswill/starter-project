@@ -1,0 +1,31 @@
+@use '../util/' as *;
+
+// reuseable classes
+
+.section {
+  padding: em(88) 0 em(16);
+
+  &__title, &__title-center {
+    font-size: var(--h2--font-size);
+    margin-bottom: var(--mb-2);
+    line-height: 140%;
+
+    &-center {
+      text-align: center;
+    }
+  }
+}
+
+.container {
+  max-width: em(968);
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid {
+  display: grid;
+}
+
+.main {
+  overflow: hidden;
+}
